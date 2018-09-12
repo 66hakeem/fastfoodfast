@@ -1,0 +1,52 @@
+
+body{
+    background-image: url("../images/food.jpeg");
+}
+#menu-bar{
+    padding:20px;
+    background: #f96e5b;
+}
+#menu-bar a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+#menu-bar a:hover{
+    color: #000000; 
+}
+#right-menu{
+    float: right;
+    font-weight: bold;
+}
+#home-text{
+    color: #ffffff;
+    float: right;
+    padding-right: 30%;
+    padding-top: 10%;
+}
+#home-here{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#home-hungry{
+    
+    font-weight: bold;
+    font-size: 80px;
+}
+#home-serve{
+    font-weight: bold;
+    font-size: 40px;
+}
+.button-order{
+    color: #ffffff;
+    padding: 20px;
+    border:1px solid #f96e5b;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+}
+.button-order:hover{
+    border:1px solid #ffffff;
+    background-color: #f96e5b;
+}

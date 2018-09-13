@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src="js/main.js"></script>
 </head>
-<body id="background">
+<body>
     <div id = "menu-bar">
         <a href="index.html">Home</a>
         <a href="order.html">Order</a>
@@ -17,13 +17,23 @@
         </a>
         <a href="Sign Up"></a>
     </div>
-    <div id="home-content">
-        <span id="home-hungry">Hungry?!</span>
-        <p id="home-here">Good, We are here</p>
-        <p id="home-serve">to serve you</p>
-        <a href="order.html" class="button-order">Order Now</a>
+    <div class="left-half">
+            <img src="images/food.jpeg">
     </div>
-    
+    <form class="right-half">
+        <h1>Ready to order Food?</h1>
+        <h2>Log in first.</h2>
+        <div class="signup-field">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="signup-field">
+            <input type="password" placeholder="Password">
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="Login" id ="submit">
+        </div>
+
+    </form>
 </body>
 </html>
-

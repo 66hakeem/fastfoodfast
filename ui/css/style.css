@@ -126,10 +126,6 @@ td p{
 
 /* Style image container */
 
-.image-container{
-    
-
-}
 .image-container img{
     width: 50%;
     float: left;
@@ -165,3 +161,20 @@ form {
     color: #ffffff;
 }
 
+/* Style login page */
+.left-half img{
+    background: url(images/food.jpeg);
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    padding-left: 8px;
+}
+.right-half{
+    text-align: center;
+    background: url(images/bg-2.jpg);
+    width: 50%;
+    right: 0px;
+    padding-top: 50px;
+    margin-top:150px;
+}

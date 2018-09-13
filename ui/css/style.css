@@ -1,3 +1,6 @@
+*{
+    font-family: Calibri;
+}
 
 #background{
     background-image: url("../images/food.jpeg");
@@ -113,4 +116,52 @@ td p{
     margin: 30px;
     text-align: center;
 }
- 
+
+.wrapper{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* Style image container */
+
+.image-container{
+    
+
+}
+.image-container img{
+    width: 50%;
+    float: left;
+}
+
+/* Style signup Form */
+
+form {
+    float: right;
+
+}
+.signup-field{
+    display: inline block;
+}
+
+.signup-field input{
+    border: none;
+    border-bottom: 1px solid #AAA;;
+    padding: 20px;
+    text-align: center;
+}
+.signup-field input:focus{
+    border-bottom: 2px solid #f96e5b;
+}
+
+.submit{
+    margin: 10px;
+}
+.submit input{
+    background-color: #f96e5b;
+    padding: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+

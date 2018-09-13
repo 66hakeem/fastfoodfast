@@ -1,7 +1,10 @@
 
-body{
+#background{
     background-image: url("../images/food.jpeg");
 }
+
+/* Style Menu/Nav Bar */
+
 #menu-bar{
     padding:20px;
     background: #f96e5b;
@@ -18,7 +21,10 @@ body{
     float: right;
     font-weight: bold;
 }
-#home-text{
+
+/* Style Home Page content */
+
+#home-content{
     color: #ffffff;
     float: right;
     padding-right: 30%;
@@ -38,6 +44,9 @@ body{
     font-weight: bold;
     font-size: 40px;
 }
+
+/* Style Button */
+
 .button-order{
     color: #ffffff;
     padding: 20px;
@@ -45,8 +54,63 @@ body{
     background: transparent;
     font-size: 20px;
     font-weight: 400;
+    text-decoration: none;
 }
 .button-order:hover{
     border:1px solid #ffffff;
     background-color: #f96e5b;
 }
+
+/* Style Order Page content */
+
+.center{
+    text-align: center;
+}
+
+/* Style Order Table */
+
+table{
+    width: auto;
+    margin: 0 auto;
+}
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    font-weight: bold;
+    padding: 5px;
+}
+.cart{
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+td img{
+    height: 150px;
+    width: 150px;
+}
+td p{
+    font-weight: normal;
+}
+
+#checkout{
+    text-align: center;
+    color:#000000;
+    padding: 20px;
+    border:1px solid #000000;
+    background: #f96e5b;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+#checkout:hover{
+    color: #ffffff;
+}
+.checkout{
+    margin: 30px;
+    text-align: center;
+}
+ 

@@ -1,5 +1,6 @@
 *{
     font-family: Calibri;
+    box-sizing: border-box;
 }
 
 #background{
@@ -99,9 +100,9 @@ td p{
     font-weight: normal;
 }
 
-#checkout{
+.checkout-button{
     text-align: center;
-    color:#000000;
+    color:#ffffff;
     padding: 20px;
     border:1px solid #000000;
     background: #f96e5b;
@@ -110,7 +111,7 @@ td p{
     text-decoration: none;
 }
 #checkout:hover{
-    color: #ffffff;
+    color: #000000;
 }
 .checkout{
     margin: 30px;
@@ -177,4 +178,28 @@ form {
     right: 0px;
     padding-top: 50px;
     margin-top:150px;
+}
+
+/* Style order history table*/
+.order-history{
+    width: 50%;
+    box-shadow: 5px 10px #888888;
+    margin-top: 20px;
+}
+
+.order-history td {
+    padding: 10px;
+    text-align: left;
+    border-style: none;
+}
+.order-date{
+    color: #f96e5b;
+}
+.order-price{
+    color: blue;
+}
+
+.order-process{
+    left: 0;
+    text-align: right;
 }

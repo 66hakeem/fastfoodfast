@@ -12,6 +12,7 @@
 .menu-bar{
     padding:20px;
     background: #f96e5b;
+    overflow: hidden;
 }
 .menu-bar a{
     text-decoration: none;
@@ -283,18 +284,31 @@ form {
       text-align: left;
     }
     #right-menu{
-        float: none;
+        display: none;
     }
     #background{
-        background-image: none;
-        background-color: #33ccff;
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+}
+ 
+    #home-here{
+        font-size: 20px;
+        font-weight: default;
+        text-align: center;
     }
-    #home-content{
-        width: 100%;
-    }
+    
     #home-hungry{
-        font-size: 50px;
+        
+        font-weight: bold;
+        font-size: 30px;
     }
+    #home-serve{
+        font-weight:bold;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+ 
     #left-container{
         float: none;
         overflow-x:auto; 
@@ -328,9 +342,31 @@ form {
         right: auto;
         padding-top: none;
         margin-top:none;
+        background-color: #AAA;
+        padding-bottom: 10px;
     }
     .left-half{
         display: none;
     }
+    #home-content{
+        color: #000000;
+        margin-top: 30%;
+        float: none;
+        padding-right: none;
+        padding-top: 70%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .button-order{
+        color: #000000;
+        padding: 20px;
+        border:1px solid #f96e5b;
+        background: transparent;
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+        
    
 }

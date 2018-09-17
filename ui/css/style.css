@@ -206,9 +206,8 @@ form {
 }
 
 /* Style the all orders admin table */
-
 .allorders{
-    border-collapse: collapse;
+     border-collapse: collapse;
 }
 .allorders th, td{
     border: 1px solid rgb(218, 210, 210);
@@ -245,4 +244,15 @@ form {
 }
 .decline:hover{
     color: #000000;
+}
+
+/* Style Mark as completed table */
+
+#left-container{
+    float: left;
+    width: 60%;
+}
+#right-container{
+    float: right;
+    width: 40%;
 }

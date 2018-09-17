@@ -10,17 +10,16 @@
 </head>
 <body>
     <div class = "menu-bar" id="MainNav">
-        <a href="../index.html">Home</a>
-        <a href="order.html">Order</a>
-        <a href="history.html">Order History</a>
-        <span id="right-menu"><a href="signup.html">Sign Up</a></span>
-        <span id="right-menu"><a href="orderslist.html">Admin</a></span>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="orderslist.html">Admin</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
     <div class="left-half">
             <img src="images/food.jpeg">
     </div>
-    <form class="right-half">
+    <form class="right-half" action="order.html">
         <h1>Ready to order Food?</h1>
         <h2>Log in first.</h2>
         <div class="signup-field">
@@ -33,6 +32,7 @@
         <div class="submit">
             <input type="submit" value="Login" id ="submit">
         </div>
+        <p><a href="orderslist.html">Login as admin</a></p>
 
     </form>
 </body>

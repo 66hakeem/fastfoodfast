@@ -77,7 +77,7 @@ table{
     width: auto;
     margin: 0 auto;
 }
-table, td{
+.order-table, td{
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -181,6 +181,7 @@ form {
 }
 
 /* Style order history table*/
+
 .order-history{
     width: 50%;
     box-shadow: 5px 10px #888888;
@@ -202,4 +203,46 @@ form {
 .order-process{
     left: 0;
     text-align: right;
+}
+
+/* Style the all orders admin table */
+
+.allorders{
+    border-collapse: collapse;
+}
+.allorders th, td{
+    border: 1px solid rgb(218, 210, 210);
+    padding: 20px;
+    text-align: left;
+
+}
+.allorders td{
+    font-weight: 200;
+}
+.accept{
+    text-align: center;
+    color:#ffffff;
+    padding: 5px 10px 5px 10px;
+    margin-right: 5px;
+    border:1px solid #000000;
+    background: #f96e5b;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.accept:hover{
+    color: #000000;
+}
+.decline{
+    text-align: center;
+    color:#ffffff;
+    padding: 5px 10px 5px 10px;
+    border:1px solid #000000;
+    background: #6dec6d;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.decline:hover{
+    color: #000000;
 }

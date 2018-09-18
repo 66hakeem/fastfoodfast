@@ -22,10 +22,7 @@
 .menu-bar a:hover{
     color: #000000; 
 }
-#right-menu{
-    float: right;
-    font-weight: bold;
-}
+
 .menu-bar .icon {
     display: none;
 }
@@ -283,9 +280,7 @@ form {
       display: block;
       text-align: left;
     }
-    #right-menu{
-        display: none;
-    }
+  
     #background{
         background-repeat:no-repeat;
         background-size:contain;
